@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="fill"
+    tools:context="com.edu.udea.compumovil.grupo6.yamba7.StatusActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/editarEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="17dp"
+        android:text="@string/nombreBoton"
+        android:background="#00FFFF" />
+
+    <EditText
+        android:id="@+id/editEstado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/bienvenida"
+        android:inputType="textMultiLine" />
+
+    <TextView 
+		android:id="@+id/textCount"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/editarEstado"
+		android:layout_alignTop="@+id/editEstado"
+		android:text="140"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</RelativeLayout>
+

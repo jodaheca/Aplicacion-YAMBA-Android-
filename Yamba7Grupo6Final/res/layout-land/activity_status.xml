@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFFFFF" >
+
+
+<fragment
+    android:id="@+id/fragment_status"
+    android:name="com.edu.udea.compumovil.grupo6.yamba7.StatusFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/fragment_imagen" />
+
+</RelativeLayout>

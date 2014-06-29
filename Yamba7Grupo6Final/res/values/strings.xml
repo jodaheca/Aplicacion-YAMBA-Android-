@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yamba 7 Gr6</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="status_update">Recargar</string>
+    <string name="nombreBoton">Enviar</string>
+    <string name="bienvenida">Publica aquí un comentario</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="username_summary">Ingrese el usuario.</string>
+    <string name="password_summary">Digite su contraseña.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tweet">Publicar</string>
+    <string name="refresh">Actualizar</string>
+    <string name="purge">purge</string>
+    <string name="servidor">Servidor</string>
+    <string name="resumen_servidor">Api Servidor</string>
+    <string name="intervalM">Intervalo</string>
+    <string name="interval">Frecuencia de actualizacion</string>
+
+
+</resources>
